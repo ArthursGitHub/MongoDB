@@ -51,6 +51,17 @@ sudo /etc/init.d/mongodb start
 > db.test.save( { a: 1 } )
 > db.test.find()
 
+
+========================================================================================================================
+
+По поводу аутентификации:
+см.- https://stackoverflow.com/questions/4881208/how-to-secure-mongodb-with-username-and-password
+
+Самый простой способ - /etc/mongodb.conf
+раскомментируем: auth=true
+и перезапускаем сервис:
+service mongodb restart
+
 ========================================================================================================================
 http://it-admin.org/?p=1631
 http://www.mkyong.com/mongodb/how-to-install-mongodb-on-ubuntu/
