@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/1)HelloWorldExample/pom.xml" />
+        <option value="$PROJECT_DIR$/2)AuthenticationExample/pom.xml" />
+        <option value="$PROJECT_DIR$/3)Insert_a_document/pom.xml" />
+        <option value="$PROJECT_DIR$/4)Update_document/pom.xml" />
+        <option value="$PROJECT_DIR$/5)Query_document/pom.xml" />
+        <option value="$PROJECT_DIR$/6)Delete_document/pom.xml" />
+        <option value="$PROJECT_DIR$/7)Save_image_example/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

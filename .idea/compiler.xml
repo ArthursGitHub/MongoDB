@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="1)HelloWorldExample" />
+        <module name="2)AuthenticationExample" />
+        <module name="3)Insert_a_document" />
+        <module name="4)Update_document" />
+        <module name="5)Query_document" />
+        <module name="6)Delete_document" />
+        <module name="7)Save_image_example" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1)HelloWorldExample" target="1.5" />
+      <module name="2)AuthenticationExample" target="1.5" />
+      <module name="3)Insert_a_document" target="1.5" />
+      <module name="4)Update_document" target="1.5" />
+      <module name="5)Query_document" target="1.5" />
+      <module name="6)Delete_document" target="1.5" />
+      <module name="7)Save_image_example" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
