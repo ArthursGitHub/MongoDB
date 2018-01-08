@@ -1,0 +1,57 @@
+Установка MongoDB на Linux Debian
+
+MongoDB (от англ. humongous — огромный) — документо-ориентированная система управления базами данных (СУБД) с открытым исходным кодом, не требующая описания схемы таблиц. Написана на языке C++.
+
+MongoDB, по мнению разработчиков, должна заполнить разрыв между простыми хранилищами данных типа «ключ-значение» (быстрыми и легко масштабируемыми) и большими РСУБД (со структурными схемами и мощными запросами).
+
+Возможности MongoDB:
+
+Документо-ориентированное хранилище (простая и мощная JSON-подобная схема данных)
+Достаточно гибкий язык для формирования запросов
+Динамические запросы
+Полная поддержка индексов
+Профилирование запросов
+Быстрые обновления «на месте»
+Эффективное хранение двоичных данных больших объёмов, напр., фото и видео
+Журналирование операций, модифицирующих данные в БД
+Поддержка отказоустойчивости и масштабируемости: асинхронная репликация, набор реплик и шардинг
+Может работать в соответствии с парадигмой MapReduce
+
+MongoDB vs MySQL
+
+По многочисленным тестам производительности, которые можно найти на просторах интернета, были сделаны выводы, что главное преимущество MongoDB перед MySQL проявляется во время записи и обновления данных в БД, примерно превосходя MySQL в 1,5 раза.
+Во время чтения данных, мнения и тесты расходятся, особенно если учитывать нагрузку, объемы и т.д.
+
+Установка MongoDB:
+Добавление ключа репозитория MongoDB:
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+
+Добавление репозитория MongoDB:
+echo 'deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10gen' | sudo tee -a /etc/apt/sources.list
+или
+echo 'deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+
+Обновление пакетов репозиториев:
+sudo apt-get update
+
+Установка MongoDB:
+sudo apt-get install mongodb-10gen
+
+или
+sudo apt-get install mongodb-org
+
+также можно ставить определенный релиз:
+apt-get install mongodb-org=2.6.1 mongodb-org-server=2.6.1 mongodb-org-shell=2.6.1 mongodb-org-mongos=2.6.1 mongodb-org-tools=2.6.1
+
+Запускаем MongoDB:
+sudo /etc/init.d/mongodb start
+
+Тестируем MongoDB:
+> mongo
+> db.test.save( { a: 1 } )
+> db.test.find()
+
+========================================================================================================================
+http://it-admin.org/?p=1631
+http://www.mkyong.com/mongodb/how-to-install-mongodb-on-ubuntu/
+http://www.mkyong.com/tutorials/java-mongodb-tutorials/
