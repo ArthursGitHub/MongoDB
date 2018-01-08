@@ -10,6 +10,13 @@
         <option value="$PROJECT_DIR$/5)Query_document/pom.xml" />
         <option value="$PROJECT_DIR$/6)Delete_document/pom.xml" />
         <option value="$PROJECT_DIR$/7)Save_image_example/pom.xml" />
+        <option value="$PROJECT_DIR$/101)Spring_MongoDB_hello_world_example/pom.xml" />
+        <option value="$PROJECT_DIR$/102)Insert_document/pom.xml" />
+        <option value="$PROJECT_DIR$/102)Update_document/pom.xml" />
+        <option value="$PROJECT_DIR$/104)Querydocument/pom.xml" />
+        <option value="$PROJECT_DIR$/105)Delete_document/pom.xml" />
+        <option value="$PROJECT_DIR$/106)Save_binary_file/pom.xml" />
+        <option value="$PROJECT_DIR$/107)Auto_Sequence_ID_example/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1)HelloWorldExample/1)HelloWorldExample.iml" filepath="$PROJECT_DIR$/1)HelloWorldExample/1)HelloWorldExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/101)Spring_MongoDB_hello_world_example/101)Spring_MongoDB_hello_world_example.iml" filepath="$PROJECT_DIR$/101)Spring_MongoDB_hello_world_example/101)Spring_MongoDB_hello_world_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/102)Insert_document/102)Insert_document.iml" filepath="$PROJECT_DIR$/102)Insert_document/102)Insert_document.iml" />
+      <module fileurl="file://$PROJECT_DIR$/103)Update_document/103)Update_document.iml" filepath="$PROJECT_DIR$/103)Update_document/103)Update_document.iml" />
+      <module fileurl="file://$PROJECT_DIR$/104)Querydocument/104)Querydocument.iml" filepath="$PROJECT_DIR$/104)Querydocument/104)Querydocument.iml" />
+      <module fileurl="file://$PROJECT_DIR$/105)Delete_document/105)Delete_document.iml" filepath="$PROJECT_DIR$/105)Delete_document/105)Delete_document.iml" />
+      <module fileurl="file://$PROJECT_DIR$/106)Save_binary_file/106)Save_binary_file.iml" filepath="$PROJECT_DIR$/106)Save_binary_file/106)Save_binary_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/107)Auto_Sequence_ID_example/107)Auto_Sequence_ID_example.iml" filepath="$PROJECT_DIR$/107)Auto_Sequence_ID_example/107)Auto_Sequence_ID_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/2)AuthenticationExample/2)AuthenticationExample.iml" filepath="$PROJECT_DIR$/2)AuthenticationExample/2)AuthenticationExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/3)Insert_a_document/3)Insert_a_document.iml" filepath="$PROJECT_DIR$/3)Insert_a_document/3)Insert_a_document.iml" />
       <module fileurl="file://$PROJECT_DIR$/4)Update_document/4)Update_document.iml" filepath="$PROJECT_DIR$/4)Update_document/4)Update_document.iml" />

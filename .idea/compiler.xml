@@ -7,6 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="1)HelloWorldExample" />
+        <module name="101)Spring_MongoDB_hello_world_example" />
+        <module name="102)Insert_document" />
+        <module name="102)Update_document" />
+        <module name="103)Update_document" />
+        <module name="104)Querydocument" />
+        <module name="105)Delete_document" />
+        <module name="106)Save_binary_file" />
+        <module name="107)Auto_Sequence_ID_example" />
         <module name="2)AuthenticationExample" />
         <module name="3)Insert_a_document" />
         <module name="4)Update_document" />
@@ -17,6 +25,14 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="1)HelloWorldExample" target="1.5" />
+      <module name="101)Spring_MongoDB_hello_world_example" target="1.5" />
+      <module name="102)Insert_document" target="1.5" />
+      <module name="102)Update_document" target="1.5" />
+      <module name="103)Update_document" target="1.5" />
+      <module name="104)Querydocument" target="1.5" />
+      <module name="105)Delete_document" target="1.5" />
+      <module name="106)Save_binary_file" target="1.5" />
+      <module name="107)Auto_Sequence_ID_example" target="1.5" />
       <module name="2)AuthenticationExample" target="1.5" />
       <module name="3)Insert_a_document" target="1.5" />
       <module name="4)Update_document" target="1.5" />
